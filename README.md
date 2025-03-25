@@ -8,6 +8,6 @@ lista (comprensiva di avatar e username) degli utenti che lo hanno inserito tra 
 - ho usato il pattern architetturali MVVM
 - ho usato Combine per la gestione della API ( riciesta e risposta )
 
+![Screenshot 2025-03-25 091043](https://github.com/user-attachments/assets/8b4fa1f0-a4d5-4b3f-a55d-2a00bd78476e)
+![Screenshot 2025-03-25 092136](https://github.com/user-attachments/assets/7f156400-03da-4a33-9826-466ae5904484)
 
-![Simulator Screenshot - iPhone 15 - 2025-03-25 at 08 29 33](https://github.com/user-attachments/assets/ca5af0f5-c2f7-492f-912d-17ff412efd5b)
-![Simulator Screenshot - iPhone 15 - 2025-03-25 at 08 29 41](https://github.com/user-attachments/assets/e803c79e-a6b5-4493-9645-f4bb946f0833)
