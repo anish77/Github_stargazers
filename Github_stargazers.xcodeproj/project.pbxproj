@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FC8E0292D91926700560C2E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C3652D918768005123D9 /* ViewControllerTests.swift */; };
 		9FE2B89A2D913C560025A878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8992D913C560025A878 /* AppDelegate.swift */; };
 		9FE2B89C2D913C560025A878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B89B2D913C560025A878 /* SceneDelegate.swift */; };
 		9FE2B89E2D913C560025A878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B89D2D913C560025A878 /* ViewController.swift */; };
 		9FE2B8A12D913C560025A878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2B89F2D913C560025A878 /* Main.storyboard */; };
 		9FE2B8A32D913C580025A878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2B8A22D913C580025A878 /* Assets.xcassets */; };
 		9FE2B8A62D913C580025A878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2B8A42D913C580025A878 /* LaunchScreen.storyboard */; };
-		9FE2B8B12D913C580025A878 /* Github_stargazersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8B02D913C580025A878 /* Github_stargazersTests.swift */; };
 		9FE2B8BB2D913C580025A878 /* Github_stargazersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8BA2D913C580025A878 /* Github_stargazersUITests.swift */; };
 		9FE2B8BD2D913C580025A878 /* Github_stargazersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8BC2D913C580025A878 /* Github_stargazersUITestsLaunchTests.swift */; };
+		9FE2B8D02D913D860025A878 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8CF2D913D860025A878 /* User.swift */; };
+		9FE2B8D32D913DD20025A878 /* StargazersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8D22D913DD20025A878 /* StargazersViewModel.swift */; };
+		9FE2B8D62D91439A0025A878 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE2B8D52D91439A0025A878 /* SDWebImage */; };
+		9FE2B8D82D9143B80025A878 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE2B8D72D9143B80025A878 /* SDWebImage */; };
+		9FE2B8DA2D9143C50025A878 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE2B8D92D9143C50025A878 /* SDWebImage */; };
+		9FE2B8DC2D9145090025A878 /* UsersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8DB2D9145090025A878 /* UsersTableView.swift */; };
+		9FE2B8DF2D9145720025A878 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2B8DD2D9145720025A878 /* UserTableViewCell.swift */; };
+		9FE2B8E02D9145730025A878 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2B8DE2D9145720025A878 /* UserTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F12C3652D918768005123D9 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		9FE2B8962D913C560025A878 /* Github_stargazers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Github_stargazers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE2B8992D913C560025A878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE2B89B2D913C560025A878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,10 +54,14 @@
 		9FE2B8A52D913C580025A878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE2B8A72D913C580025A878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FE2B8AC2D913C580025A878 /* Github_stargazersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Github_stargazersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FE2B8B02D913C580025A878 /* Github_stargazersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_stargazersTests.swift; sourceTree = "<group>"; };
 		9FE2B8B62D913C580025A878 /* Github_stargazersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Github_stargazersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE2B8BA2D913C580025A878 /* Github_stargazersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_stargazersUITests.swift; sourceTree = "<group>"; };
 		9FE2B8BC2D913C580025A878 /* Github_stargazersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_stargazersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FE2B8CF2D913D860025A878 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9FE2B8D22D913DD20025A878 /* StargazersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StargazersViewModel.swift; sourceTree = "<group>"; };
+		9FE2B8DB2D9145090025A878 /* UsersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableView.swift; sourceTree = "<group>"; };
+		9FE2B8DD2D9145720025A878 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		9FE2B8DE2D9145720025A878 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE2B8D62D91439A0025A878 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE2B8D82D9143B80025A878 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE2B8DA2D9143C50025A878 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +115,11 @@
 		9FE2B8982D913C560025A878 /* Github_stargazers */ = {
 			isa = PBXGroup;
 			children = (
+				9FE2B8CD2D913D500025A878 /* Models */,
+				9FE2B8CC2D913CA30025A878 /* Views */,
+				9FE2B8CE2D913D5F0025A878 /* ViewModels */,
 				9FE2B8992D913C560025A878 /* AppDelegate.swift */,
 				9FE2B89B2D913C560025A878 /* SceneDelegate.swift */,
-				9FE2B89D2D913C560025A878 /* ViewController.swift */,
-				9FE2B89F2D913C560025A878 /* Main.storyboard */,
 				9FE2B8A22D913C580025A878 /* Assets.xcassets */,
 				9FE2B8A42D913C580025A878 /* LaunchScreen.storyboard */,
 				9FE2B8A72D913C580025A878 /* Info.plist */,
@@ -113,7 +130,7 @@
 		9FE2B8AF2D913C580025A878 /* Github_stargazersTests */ = {
 			isa = PBXGroup;
 			children = (
-				9FE2B8B02D913C580025A878 /* Github_stargazersTests.swift */,
+				9F12C3652D918768005123D9 /* ViewControllerTests.swift */,
 			);
 			path = Github_stargazersTests;
 			sourceTree = "<group>";
@@ -125,6 +142,34 @@
 				9FE2B8BC2D913C580025A878 /* Github_stargazersUITestsLaunchTests.swift */,
 			);
 			path = Github_stargazersUITests;
+			sourceTree = "<group>";
+		};
+		9FE2B8CC2D913CA30025A878 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2B89F2D913C560025A878 /* Main.storyboard */,
+				9FE2B8DE2D9145720025A878 /* UserTableViewCell.xib */,
+				9FE2B8DB2D9145090025A878 /* UsersTableView.swift */,
+				9FE2B8DD2D9145720025A878 /* UserTableViewCell.swift */,
+				9FE2B89D2D913C560025A878 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FE2B8CD2D913D500025A878 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2B8CF2D913D860025A878 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FE2B8CE2D913D5F0025A878 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2B8D22D913DD20025A878 /* StargazersViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +188,9 @@
 			dependencies = (
 			);
 			name = Github_stargazers;
+			packageProductDependencies = (
+				9FE2B8D52D91439A0025A878 /* SDWebImage */,
+			);
 			productName = Github_stargazers;
 			productReference = 9FE2B8962D913C560025A878 /* Github_stargazers.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +209,9 @@
 				9FE2B8AE2D913C580025A878 /* PBXTargetDependency */,
 			);
 			name = Github_stargazersTests;
+			packageProductDependencies = (
+				9FE2B8D72D9143B80025A878 /* SDWebImage */,
+			);
 			productName = Github_stargazersTests;
 			productReference = 9FE2B8AC2D913C580025A878 /* Github_stargazersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -179,6 +230,9 @@
 				9FE2B8B82D913C580025A878 /* PBXTargetDependency */,
 			);
 			name = Github_stargazersUITests;
+			packageProductDependencies = (
+				9FE2B8D92D9143C50025A878 /* SDWebImage */,
+			);
 			productName = Github_stargazersUITests;
 			productReference = 9FE2B8B62D913C580025A878 /* Github_stargazersUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -215,6 +269,9 @@
 				Base,
 			);
 			mainGroup = 9FE2B88D2D913C560025A878;
+			packageReferences = (
+				9FE2B8D42D91439A0025A878 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 9FE2B8972D913C560025A878 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE2B8E02D9145730025A878 /* UserTableViewCell.xib in Resources */,
 				9FE2B8A62D913C580025A878 /* LaunchScreen.storyboard in Resources */,
 				9FE2B8A32D913C580025A878 /* Assets.xcassets in Resources */,
 				9FE2B8A12D913C560025A878 /* Main.storyboard in Resources */,
@@ -258,9 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE2B8D02D913D860025A878 /* User.swift in Sources */,
 				9FE2B89E2D913C560025A878 /* ViewController.swift in Sources */,
+				9FE2B8DF2D9145720025A878 /* UserTableViewCell.swift in Sources */,
+				9FE2B8DC2D9145090025A878 /* UsersTableView.swift in Sources */,
 				9FE2B89A2D913C560025A878 /* AppDelegate.swift in Sources */,
 				9FE2B89C2D913C560025A878 /* SceneDelegate.swift in Sources */,
+				9FE2B8D32D913DD20025A878 /* StargazersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE2B8B12D913C580025A878 /* Github_stargazersTests.swift in Sources */,
+				9FC8E0292D91926700560C2E /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +478,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -607,6 +670,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FE2B8D42D91439A0025A878 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FE2B8D52D91439A0025A878 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE2B8D42D91439A0025A878 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		9FE2B8D72D9143B80025A878 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE2B8D42D91439A0025A878 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		9FE2B8D92D9143C50025A878 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE2B8D42D91439A0025A878 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9FE2B88E2D913C560025A878 /* Project object */;
 }
